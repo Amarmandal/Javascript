@@ -5,4 +5,5 @@ let course = {
     description: 'Full stack web development with javascript'
 }
 
-console.log(`Hey! there is the new course ${course.name} by ${course.instructor} at ${course.price} with description ${course.description}`)
+delete course.name;
+console.log(course.name)
